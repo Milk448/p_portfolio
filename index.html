@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">I am a Web Developer with experience in JavaScript, HTML, CSS, and Flutter.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Me</h2>
+        <p>I am a web developer with intermediate skills in JavaScript, HTML, CSS, and their frameworks. I also have experience with Flutter and I am currently working on a project named "Mind_Twist". I have good knowledge of Git and GitHub, which I use to manage my projects and collaborate with others.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mt-5">
+        <h2>My Projects</h2>
+        <div class="row">
+            <!-- Project 1: Mind_Twist (Flutter) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/macbook-apple-imac-computer-39284.jpeg" class="card-img-top" alt="Mind_Twist Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Mind_Twist (Flutter)</h5>
+                        <p class="card-text">A Flutter project I am currently working on.</p>
+                        <a href="https://github.com/yourusername/mind_twist" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/pexels-photo-1181258.webp" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Frontend skills</h5>
+                        <p class="card-text">A web application highlighting my expertise in HTML, CSS, and JavaScript to create a seamless user experience.</p>
+                        <a href="https://github.com/jiroomi/UGR-4707-13" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/pexels-photo-1181274.webp" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Github experience</h5>
+                        <p class="card-text">I can confidently navigate branching, merging, and conflict resolution in Git,
+                             allowing me to collaborate effectively on projects hosted on GitHub and maintain a clean codebase.</p>
+                        <a href="https://github.com/jiroomi" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5 mb-5">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github" class="container mt-5 mb-5">
+        <h2>My GitHub</h2>
+        <p>Check out my GitHub profile for more projects and code repositories.</p>
+        <a href="https://github.com/jiroomi" class="btn btn-secondary">Visit GitHub</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-light py-4">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
